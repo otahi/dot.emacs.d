@@ -3,7 +3,6 @@
 (source melpa)
 
 (depends-on "cask")
-(depends-on "anything")
 (depends-on "flycheck")
 (depends-on "magit")
 (depends-on "magit-popup")

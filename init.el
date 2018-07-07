@@ -1,14 +1,7 @@
 ;; cask
+(package-initialize)
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
-
-;; anything
-(require 'anything)
-(require 'anything-config)
-(anything-completion-mode)
-
-(global-set-key (kbd "M-y") 'anything-show-kill-ring)
-(define-key global-map (kbd "\C-x b") 'anything)
 
 ;; show line number
 (global-linum-mode t)
